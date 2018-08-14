@@ -21,7 +21,7 @@ rs=400#Km
 
 L0=3.828*10**(26)#W
 
-Ls=L0*(rs**2/r0**2)*10**((ms-msun)/-2.5)
+Ls=L0/2.*(rs**2/r0**2)*10**((ms-msun)/-2.5)
 Ms=[]
 for i in ms:
     Ms.append(i)
